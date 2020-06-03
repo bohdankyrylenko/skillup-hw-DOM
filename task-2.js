@@ -7,6 +7,7 @@
 // Функция принимает только DOM объекты.
 // Получить список всех ссылок, которые не находятся внутри списка ul
 // Найти элемент, который находится перед и после списка ul
+
 document.addEventListener("DOMContentLoaded", function () {
   function WhoYourDaddy(parent, child) {
     if (parent.contains(child)) {

@@ -6,6 +6,7 @@
 // вывести все дочерние узлы в консоль
 // вывести в консоль все дочерние узлы, кроме первого и последнего
 // Для навигации по DOM использовать методы, которые возвращают только элементы
+
 document.addEventListener("DOMContentLoaded", function () {
   const elhead = document.querySelector("head");
   console.log(elhead);
